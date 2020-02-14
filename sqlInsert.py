@@ -1,7 +1,7 @@
 import MySQLdb
 
-db = MySQLdb.connect(host="192.168.0.131", user="jadhas20", passwd="hase",
-db="jadhas20")
+db = MySQLdb.connect(host="192.168.0.132", user="user", passwd="password",
+db="school")
 	#create cursor
 cur = db.cursor(MySQLdb.cursors.DictCursor)
 
